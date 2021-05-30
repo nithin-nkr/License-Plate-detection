@@ -4,8 +4,8 @@ import imutils #to resize image
 import pytesseract
 import xlsxwriter
 
-
-pytesseract.pytesseract.tesseract_cmd =r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+#pytesseract engine location
+pytesseract.pytesseract.tesseract_cmd =r"C:\Program Files\Tesseract-OCR\tesseract.exe" 
 #reading the img
 img =cv2.imread('car1.jpeg')
 #resizing and standardizing
